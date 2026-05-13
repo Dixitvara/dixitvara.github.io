@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title id="page-title">Portfolio</title>
+  <meta name="description" id="page-desc" content="Portfolio">
+
+  <!-- Open Graph (social preview when shared) -->
+  <meta property="og:title" id="og-title" content="Portfolio">
+  <meta property="og:description" id="og-desc" content="Portfolio">
+  <meta property="og:image" id="og-image" content="">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Roboto+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- All sections are shells — filled entirely by JS below -->
+  <nav id="nav"></nav>
+  <div class="n-drawer" id="drawer"></div>
+
+  <main>
+    <section id="hero">
+      <div class="hero-orb orb1"></div>
+      <div class="hero-orb orb2"></div>
+      <div class="hero-orb orb3"></div>
+      <div class="hero-inner" id="hero-inner"></div>
+    </section>
+    <hr class="div">
+    <section id="building" class="sec">
+      <div class="sec-inner" id="building-inner"></div>
+    </section>
+    <hr class="div">
+    <section id="about" class="sec sec-alt">
+      <div class="sec-inner" id="about-inner"></div>
+    </section>
+    <hr class="div">
+    <section id="skills" class="sec">
+      <div class="sec-inner" id="skills-inner"></div>
+    </section>
+    <hr class="div">
+    <section id="projects" class="sec sec-alt">
+      <div class="sec-inner" id="projects-inner"></div>
+    </section>
+    <hr class="div">
+    <section id="experience" class="sec">
+      <div class="sec-inner" id="exp-inner"></div>
+    </section>
+    <hr class="div">
+    <section id="education" class="sec sec-alt">
+      <div class="sec-inner" id="edu-inner"></div>
+    </section>
+    <hr class="div">
+    <section id="contact" class="sec">
+      <div class="sec-inner" id="contact-inner"></div>
+    </section>
+  </main>
+  <footer id="footer"></footer>
+
+  <!--
+    JavaScript modules — load order matters:
+      1. config.js   → CONFIG data (edit this to personalise)
+      2. icons.js    → SVG icon map
+      3. helpers.js  → pure utility functions
+      4. renderers.js → DOM render functions
+      5. behaviour.js → scroll animations & nav interactions
+      6. main.js     → boot entry point
+  -->
+  <script src="js/config.js"></script>
+  <script src="js/icons.js"></script>
+  <script src="js/helpers.js"></script>
+  <script src="js/renderers.js"></script>
+  <script src="js/behaviour.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
