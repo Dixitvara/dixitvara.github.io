@@ -20,7 +20,7 @@ const CONFIG = {
     initials: "DV"
   },
   // photo: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 200 200'%3E%3Crect width='200' height='200' fill='%231976D2'/%3E%3Ccircle cx='100' cy='78' r='36' fill='%23BBDEFB'/%3E%3Cellipse cx='100' cy='160' rx='52' ry='38' fill='%23BBDEFB'/%3E%3Ctext x='100' y='195' font-family='Roboto,sans-serif' font-size='13' fill='%231976D2' text-anchor='middle' font-weight='600'%3EYour Photo Here%3C/text%3E%3C/svg%3E",
-  photo: "../photo.jpg",
+  photo: "photo.jpg",
   // photo: "photo.jpg",
   // ↑ DEMO avatar — replace with your actual image filename e.g. "dixit.jpg"
 
